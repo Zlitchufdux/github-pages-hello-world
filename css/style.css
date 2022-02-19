@@ -1,0 +1,46 @@
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(77, 77, 77);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  padding: 30px 20px 0px 30px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: rgb(78, 78, 78);
+}
+
+div {
+  display: flex;
+  justify-content: center;
+}
+
+.photo1 {
+  padding: 20px 0px 0px 0px;
+  display: block;
+  height: 30vh;
+  width: 22vw;
+}
+
+.logo {
+  float: left;
+  height: 80px;
+  width: 80px;
+  padding-left: 20px;
+
+}
+
+h2, h3, footer {
+  text-align: center;
+}
